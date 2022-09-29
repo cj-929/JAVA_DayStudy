@@ -4,10 +4,10 @@ public class Person {
     private  String name;
     private  String age;
 
-    public static void main(String[] args) {
-        eat();
-    }
-    public static void eat(){
-        System.out.println("吃东西");
+    public String chu(String str1,String str2){
+        if("admin".equals(str1)&& "123456".equals(str2)){
+            return "OK";
+        }
+        return "error";
     }
 }
